@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.headerContainer {
+  background-color: rgb(255, 255, 255, 0.3);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 45px 0px 40px;
+  box-shadow: 0 8px 8px -4px rgb(122, 167, 182);
+}
+
+.centeredItem {
+  text-align: center;
+}
+
+.rightItem div {
+  float: right;
+  margin-right: 16px;
+  font-size: 13px;
+  letter-spacing: 0.14px;
+}
